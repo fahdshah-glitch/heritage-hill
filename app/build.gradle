@@ -4,7 +4,7 @@ android {
     namespace 'com.fahd.heritagehill'
     compileSdk 34
     defaultConfig {
-        applicationId 'com.fahd.heritagehill'
+        applicationId 'com.syedfahd.heritagehill'
         minSdk 24
         targetSdk 34
         versionCode 100 + runNo
@@ -17,6 +17,9 @@ android {
             storePassword 'heritagehill'
             keyAlias 'heritagehill'
             keyPassword 'heritagehill'
+            enableV1Signing true
+            enableV2Signing true
+            enableV3Signing true
         }
     }
     buildTypes {
